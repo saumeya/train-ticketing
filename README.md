@@ -17,7 +17,7 @@ This project is a simple train ticket booking system built using Go. It allows u
 
 ### Prerequisites
 
-- Go (latest version)
+- Go
 - Git
 
 ### Steps to Run
