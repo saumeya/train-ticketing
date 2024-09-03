@@ -38,10 +38,10 @@ This project is a simple train ticket booking system built using Go. It allows u
 - **Single Ticket Booking**: The User can book only one ticket at a time.
 - **Predefined Train Routes**: The system uses a predefined list of train routes stored in a mock database. The routes are initialized in the code, and users can only book tickets for these routes.
 - **Seat Allotment Process**: Seat Allotment is sequentially implemented, the next available seat is given to the user starting from Section A to Section B
-- **Email as Username**:Each user is identified by a unique email address, which serves as their username for all train seat operations.
+- **Email as Username**: Each user is identified by a unique email address, which serves as their username for all train seat operations.
 - **Train Seats and Sections**: Each train is divided into two sections, A and B, with 20 seats available in each section.
 
-### Components
+## Components
 
 - **Server**: Handles incoming ticket booking requests from clients and processes them. It includes separation between booking services and train operations.
 - **Client**: Sends ticket booking requests to the server and displays the server's response.
