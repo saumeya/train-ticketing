@@ -43,7 +43,7 @@ This project is a simple train ticket booking system built using Go. It allows u
 
 ## Components
 
-- **Server**: Handles incoming ticket booking requests from clients and processes them. It includes separation between booking services and train operations.
+- **Server**: Handles incoming ticket booking requests from clients and processes them. It includes separation between booking services and train operations and unit tests.
 - **Client**: Sends ticket booking requests to the server and displays the server's response.
 - **API**: Contains the protobuf (proto) definitions and structs used for gRPC communication. This includes message types, service definitions, and RPC methods.
   
